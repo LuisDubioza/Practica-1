@@ -4,11 +4,12 @@ public class Practica1Parte2 {
 
     public static void main(String[] args) {
 
+        double Libra = 2.20462;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println( "Bienvenido a calculadora de conversión de lkilo a libra \n"
-        + "Ingresa la cantidad en kilos a convertir \n" );
-        double libras = scanner.nextDouble();
+        System.out.println( "\n Bienvenido a calculadora de conversión de kilo a libra \n");
+        System.out.println("Ingresa la cantidad en kilos a convertir \n");
+        double kilos = scanner.nextDouble();
     }
 
 
