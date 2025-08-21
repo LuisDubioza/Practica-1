@@ -6,11 +6,9 @@ public class Practica1Parte2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println( "Bienvenido a calculadora de conversión de libra a kilo \n"
-        + "Ingresa el monto en libras a convertir \n" );
+        System.out.println( "Bienvenido a calculadora de conversión de lkilo a libra \n"
+        + "Ingresa la cantidad en kilos a convertir \n" );
         double libras = scanner.nextDouble();
-
-        System.out.println(libras);
     }
 
 
